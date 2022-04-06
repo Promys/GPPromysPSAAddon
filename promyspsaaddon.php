@@ -3,7 +3,7 @@
 Plugin Name: Promys PSA Add-On
 Plugin URI: http://www.promys.com
 Description: Add-on to create leads at Promys PSA from Gravity Form
-Version: 0.1
+Version: 3.0
 Author: Promys Inc.
 Author URI: http://www.promys.com
 
@@ -11,7 +11,7 @@ Author URI: http://www.promys.com
 Copyright 2021 Promys Inc.
 */
 
-define( 'GF_PROMYS_PSA_ADDON_VERSION', '2.0' );
+define( 'GF_PROMYS_PSA_ADDON_VERSION', '3.0' );
 
 add_action( 'gform_loaded', array( 'GF_Promys_PSA_AddOn_Bootstrap', 'load' ), 5 );
 

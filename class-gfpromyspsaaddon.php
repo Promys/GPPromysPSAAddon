@@ -128,6 +128,7 @@ class GFPromysPSAAddOn extends GFFeedAddOn {
 			'ContactTitle1' => $merge_vars['title'],
 			'ContactPhone1' => $merge_vars['phone'],
 			'ContactEmail1' => $merge_vars['email'],
+			'IsActive' => true,
 		);
 		# print 'Post data: ';
 		# print_r(json_encode($postData));
